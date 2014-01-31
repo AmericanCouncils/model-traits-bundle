@@ -1,0 +1,22 @@
+{
+    "name": "ac/model-traits-bundle",
+    "version": "0.1.0",
+    "description": "Convenient traits for models in your Symfony2 app",
+    "keywords": ["model", "traits", "model-traits"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Simon",
+            "email": "david.mike.simon@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "2.*",
+        "ac/kalinka": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "AC\\ModelTraitsBundle": "" }
+    },
+    "target-dir": "AC/ModelTraitsBundle"
+}
