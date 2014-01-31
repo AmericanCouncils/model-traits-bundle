@@ -13,7 +13,7 @@
     ],
     "require": {
         "symfony/symfony": "2.*",
-        "ac/kalinka": "dev-master"
+        "ac/model-traits": "dev-master"
     },
     "autoload": {
         "psr-0": { "AC\\ModelTraitsBundle": "" }
