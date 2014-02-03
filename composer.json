@@ -1,6 +1,5 @@
 {
     "name": "ac/model-traits-bundle",
-    "version": "0.1.0",
     "description": "Convenient traits for models in your Symfony2 app",
     "keywords": ["model", "traits", "model-traits"],
     "type": "symfony-bundle",
