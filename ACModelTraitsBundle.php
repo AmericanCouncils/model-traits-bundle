@@ -8,12 +8,10 @@ use AC\ModelTraits\AnnotationReaderFetcher;
 
 class ACModelTraitsBundle extends Bundle
 {
-    public function build(ContainerBuilder $container)
+    public function boot()
     {
         AnnotationReaderFetcher::setReaderFetchFunc(function() use ($container) {
             return $container->get('annotation_reader');
         });
-
-        parent::build($container);
     }
 }
